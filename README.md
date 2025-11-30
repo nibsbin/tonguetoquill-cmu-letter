@@ -1,4 +1,4 @@
-# tonguetoquill: CMU Letter Template for Typst
+# TongueToQuill: CMU Letter Template for Typst
 
 
 [![github-repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/nibsbin/tonguetoquill-cmu-letter)
