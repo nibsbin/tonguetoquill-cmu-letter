@@ -5,7 +5,9 @@
 [![typst-universe](https://img.shields.io/badge/Typst-Universe-aqua)](https://github.com/nibsbin/tonguetoquill-cmu-letter)
 [![nibs](https://img.shields.io/badge/author-Nibs-white?logo=github)](https://github.com/nibsbin)
 
-A Typst template for creating official Carnegie Mellon University letters that comply with the standardized letterhead guidelines.
+A Typst template for writing official Carnegie Mellon University letters.
+
+Maintained by [tonguetoquill.com](https://www.tonguetoquill.com).
 
 ## Features
 
