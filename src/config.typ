@@ -23,7 +23,8 @@
 #let DEFAULT_SERIF_FONTS = () // Serif fonts prohibited
 
 // Font sizes per guidelines: 10pt or 11pt for body text
-#let DEFAULT_FONT_SIZE = 11pt
+#let HEADER_FONT_SIZE = 8pt
+#let BODY_FONT_SIZE = 10pt
 
 // =============================================================================
 // PAGE GEOMETRY

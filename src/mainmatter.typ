@@ -30,7 +30,7 @@
     marker: text(size: 1.2em)[•]
   )
   set enum(indent: 0em, body-indent: 1em)
-  
+  set text(size: BODY_FONT_SIZE)
   block()[
     #set par(
       first-line-indent: 0pt,

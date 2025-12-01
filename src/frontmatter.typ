@@ -21,10 +21,6 @@
   date: none,
   recipient: none,
 
-  // Typography options
-  body_font: DEFAULT_BODY_FONTS,
-  font_size: DEFAULT_FONT_SIZE,
-
   it
 ) = {
   let actual_date = if date == none { datetime.today() } else { date }
@@ -37,8 +33,8 @@
 
   set text(
     font: DEFAULT_BODY_FONTS,
-    size: font_size,
   )
+
 
   set par(
     spacing: .7em,
@@ -46,6 +42,7 @@
   )
 
   // Render the header (in normal document flow)
+  set text(size: HEADER_FONT_SIZE)
   render-header(
     wordmark,
     department: department,
@@ -55,6 +52,7 @@
 
   blank-lines(3)
 
+  set text(size: BODY_FONT_SIZE)
   // Date and recipient in same paragraph to avoid extra spacing
   [#display-date(actual_date)
     #linebreak()
@@ -64,8 +62,6 @@
   // Store metadata for downstream sections
   metadata((
     date: actual_date,
-    body_font: body_font,
-    font_size: font_size,
   ))
 
   it
