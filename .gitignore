@@ -1,17 +1,14 @@
-
-# Dependencies and caches
-.typst/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Editor files
-*.swp
-*.swo
-*~
-.vscode/
-.idea/
-
-# Temporary files
-/tmp/
+dev_assets/
+**fonts/
+**.pdf
+.github/
+pdfs/
+tests/
+build.sh
+.gitignore~*
+.orchestration.txt
+.claude/
+.github/
+references/
+.claude/
+# Keep README.md and LIMITATIONS.md for package distribution
